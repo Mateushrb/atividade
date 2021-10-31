@@ -6,7 +6,7 @@
 
 body {
     background-color: rgb(97, 82, 82);
-    background-image: url("/images/background.png");
+    background-image: url("./background/background.png");
     background-repeat: no-repeat;
     background-position-x: center;
     background-size: 37vw 100vh;
