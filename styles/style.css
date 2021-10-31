@@ -70,3 +70,9 @@ footer {
     padding-top: 30px;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    main, footer {
+        width: 70%;
+    }
+}

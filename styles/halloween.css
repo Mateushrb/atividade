@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500&family=Roboto&family=Six+Caps&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    background-color: rgb(97, 82, 82);
+    background-image: url("/images/background.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 37vw 100vh;
+}
+
+main {
+    width: 25vw;
+    margin: auto;
+}
+
+.title {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .62vw;
+    letter-spacing: .62vw;
+    font-weight: 500;
+    font-family: "Asap", sans-serif;
+    padding-top: 8.5vh;
+}
+
+.stats {
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2.4vw;
+    letter-spacing: .25vw;
+    font-weight: 400;
+    font-family: "Six Caps", sans-serif;
+    padding-top: 28vh;
+}
+
+.paragrafo {
+    color: #c52723;
+    font-weight: 400;
+    font-family: "Asap", sans-serif;
+    text-align: center;
+    text-align: justify;
+    font-size: .9vw;
+    padding-top: 2.5vh;
+}
+
+.address {
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Asap";
+    text-align: center;
+    font-size: 1vw;
+    padding-top: 3vh;
+    letter-spacing: .05vw;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-size: 100vw 93vh;
+    }
+
+    main {
+        width: 75vw;
+    }
+
+    .title {
+        padding-top: 7vh;
+        font-size: 3vw;
+        letter-spacing: .9vw;
+    }
+
+    .stats {
+        font-size: 10vw;
+        padding-top: 22vh;
+    }
+
+    .paragrafo {
+        font-size: 2.9vw;
+        padding-top: 2.5vh;
+    }
+
+    .address {
+        font-size: 3.2vw;
+        padding-top: 2vh;
+    }
+}
