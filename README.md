@@ -2,4 +2,4 @@
 
 Exercício da aula de programação 
 
-Disponível em: https://mateushrb.github.io/atividade/
+Para acessar o site clique <a href="https://mateushrb.github.io/atividade/" target="_blank">aqui</a>
